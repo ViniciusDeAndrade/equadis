@@ -1,0 +1,7 @@
+package pt.com.equadis.error;
+
+public class WithdrawException extends RuntimeException {
+    public WithdrawException(String message) {
+        super(message);
+    }
+}
